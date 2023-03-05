@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoelementos</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h1{
+            width: 500px;
+            height: 20px;
+            background-color: navajowhite;
+            padding: 15px;
+        }
+
+        a{
+            color: blue;
+            text-decoration: none;
+            font-weight: normal;
+        }
+
+        a:hover{
+            background-color: darkgray;
+            text-decoration: underline ;
+        }
+
+        a:active{
+            color: darkgreen;
+        }
+
+        a::after{
+            content: ' [Acesse agora] ';
+            text-decoration: none;
+            color: darkgrey;
+        }
+
+        a::before{
+            content: ' » ';
+        }
+
+        .imprt:hover{
+            background-color: deeppink;
+        }        
+        
+        .imprt::before{
+            content: ' ♣ ';
+        }
+
+        .imprt::after{
+            content: ' ♣ ';
+            color: blue;
+        }
+
+        .imprt{
+            background-color: darkgrey;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Personalizando links</h1>
+
+    <ul>
+        <li><a href="https://www.facebook.com/nicolas.duqueestradasantos" target="_blank" class="imprt">Perfil Facebook</a> </li>
+        <li><a href="https://www.instagram.com/n_duque1/" target="_blank" class="imprt">Perfil Instagram</a></li>
+        <li><a href="https://twitter.com/Nicolas_DEdS" target="_blank">Perfil Twitter</a> </li>
+    </ul>
+
+    
+</body>
+</html>
