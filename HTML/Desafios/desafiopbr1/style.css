@@ -1,0 +1,27 @@
+.name{
+    color: yellow;
+}
+
+body{
+    background-image:url(bandeira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    font-size: 25px;
+}
+
+h2{
+    font-size: 45px;
+    color: yellow;
+}
+
+h3{
+    font-size: 38px;
+    color: yellow;
+}
+
+#lista{
+    color: blue;
+}
